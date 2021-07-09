@@ -401,6 +401,8 @@ __metadata:
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.0.0-next.11
     "@tsconfig/svelte": ^2.0.1
+    prettier: ^2.3.2
+    prettier-plugin-svelte: ^2.3.1
     svelte: ^3.38.3
     svelte-check: 2.2.0
     svelte-preprocess: ^4.7.3
@@ -2811,6 +2813,16 @@ fsevents@~2.3.2:
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
   checksum: bc1649f521e8928cde0e1b349b224de2e6f00b71361a4a44f2e4a615342b6e1ae30366c32d26412dabe74d999a40f79c0ae044ae6b17cf19af935e74d12ea4fa
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-svelte@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "prettier-plugin-svelte@npm:2.3.1"
+  peerDependencies:
+    prettier: ^1.16.4 || ^2.0.0
+    svelte: ^3.2.0
+  checksum: 5d266a488995ecaeb74c38e1a750471d3e180a2b96e979bdf8eaa29eb0e2c468550f2aacf4bc5fc253a241ac7aa1ca3a4a706fd6f1d9fdd2ff7d412b657e1128
   languageName: node
   linkType: hard
 

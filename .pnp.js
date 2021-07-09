@@ -551,6 +551,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@try-svelte/www", "workspace:packages/www"],
             ["@sveltejs/vite-plugin-svelte", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:1.0.0-next.11"],
             ["@tsconfig/svelte", "npm:2.0.1"],
+            ["prettier", "npm:2.3.2"],
+            ["prettier-plugin-svelte", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.3.1"],
             ["svelte", "npm:3.38.3"],
             ["svelte-check", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.0"],
             ["svelte-preprocess", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:4.7.3"],
@@ -3354,6 +3356,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prettier-npm-2.3.2-4467ec48dc-4fd89a7f6a.zip/node_modules/prettier/",
           "packageDependencies": [
             ["prettier", "npm:2.3.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier-plugin-svelte", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/prettier-plugin-svelte-npm-2.3.1-48e926c28f-5d266a4889.zip/node_modules/prettier-plugin-svelte/",
+          "packageDependencies": [
+            ["prettier-plugin-svelte", "npm:2.3.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.3.1", {
+          "packageLocation": "./.yarn/$$virtual/prettier-plugin-svelte-virtual-74283db4f8/0/cache/prettier-plugin-svelte-npm-2.3.1-48e926c28f-5d266a4889.zip/node_modules/prettier-plugin-svelte/",
+          "packageDependencies": [
+            ["prettier-plugin-svelte", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.3.1"],
+            ["@types/prettier", null],
+            ["@types/svelte", null],
+            ["prettier", "npm:2.3.2"],
+            ["svelte", "npm:3.38.3"]
+          ],
+          "packagePeers": [
+            "@types/prettier",
+            "@types/svelte",
+            "prettier",
+            "svelte"
           ],
           "linkType": "HARD",
         }]
