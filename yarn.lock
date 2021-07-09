@@ -419,7 +419,7 @@ __metadata:
     prettier: ^2.3.2
     prettier-plugin-svelte: ^2.3.1
     svelte: ^3.38.3
-    svelte-check: 2.2.0
+    svelte-check: ^2.2.2
     svelte-preprocess: ^4.7.3
     tslib: ^2.3.0
     typescript: ^4.3.5
@@ -3645,9 +3645,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:2.2.0":
-  version: 2.2.0
-  resolution: "svelte-check@npm:2.2.0"
+"svelte-check@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "svelte-check@npm:2.2.2"
   dependencies:
     chalk: ^4.0.0
     chokidar: ^3.4.1
@@ -3662,7 +3662,7 @@ fsevents@~2.3.2:
     svelte: ^3.24.0
   bin:
     svelte-check: bin/svelte-check
-  checksum: a150dab885a2c7d5ebaa51c418aa2dc118a9f329a24b51253bb0cd823b6c406f094cab1fb982a4c859fdabccfa96ba7ff0af1e1defc198f8fca13f9800cd75a9
+  checksum: 4c0a8ef025fea0c66a3cff824378e2bf64bfcbee2a3cdfac014f6c316e77af8a1365658f3c324f16b230f6779171fb4bb854abcff5863179ae0cca922ecb9d03
   languageName: node
   linkType: hard
 

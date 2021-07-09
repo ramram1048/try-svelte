@@ -597,7 +597,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.2"],
             ["prettier-plugin-svelte", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.3.1"],
             ["svelte", "npm:3.38.3"],
-            ["svelte-check", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.0"],
+            ["svelte-check", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.2"],
             ["svelte-preprocess", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:4.7.3"],
             ["tslib", "npm:2.3.0"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
@@ -4389,17 +4389,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["svelte-check", [
-        ["npm:2.2.0", {
-          "packageLocation": "./.yarn/cache/svelte-check-npm-2.2.0-b4f25e42ec-a150dab885.zip/node_modules/svelte-check/",
+        ["npm:2.2.2", {
+          "packageLocation": "./.yarn/cache/svelte-check-npm-2.2.2-11d6d94dad-4c0a8ef025.zip/node_modules/svelte-check/",
           "packageDependencies": [
-            ["svelte-check", "npm:2.2.0"]
+            ["svelte-check", "npm:2.2.2"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.0", {
-          "packageLocation": "./.yarn/$$virtual/svelte-check-virtual-9bec9ac118/0/cache/svelte-check-npm-2.2.0-b4f25e42ec-a150dab885.zip/node_modules/svelte-check/",
+        ["virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.2", {
+          "packageLocation": "./.yarn/$$virtual/svelte-check-virtual-f39892fa92/0/cache/svelte-check-npm-2.2.2-11d6d94dad-4c0a8ef025.zip/node_modules/svelte-check/",
           "packageDependencies": [
-            ["svelte-check", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.0"],
+            ["svelte-check", "virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.2.2"],
             ["@types/svelte", null],
             ["chalk", "npm:4.1.1"],
             ["chokidar", "npm:3.5.2"],
