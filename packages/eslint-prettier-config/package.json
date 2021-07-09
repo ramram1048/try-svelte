@@ -1,0 +1,14 @@
+{
+  "name": "@try-svelte/eslint-prettier-config",
+  "version": "0.0.0",
+  "files": [
+    ".eslintrc.js",
+    ".prettierrc.js"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "prettier": "^2.3.2"
+  }
+}
