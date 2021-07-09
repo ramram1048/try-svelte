@@ -6,10 +6,9 @@
     "build": "vite build",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "prettier --write ./src/**/*.{ts,svelte}",
+    "format": "prettier --loglevel silent --write ./src/**/*.{ts,svelte}",
     "lint": "eslint './src/**/*.{ts,svelte}'",
-    "lint:fix": "eslint --fix './src/**/*.{ts,svelte}'",
-    "prelint": "npm run format"
+    "lint:fix": "yarn format && eslint --fix './src/**/*.{ts,svelte}'"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
