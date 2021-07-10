@@ -1,6 +1,10 @@
 {
   "name": "try-svelte",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramram1048/try-svelte.git"
+  },
   "workspaces": [
     "packages/*"
   ],

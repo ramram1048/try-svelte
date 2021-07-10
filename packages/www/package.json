@@ -1,6 +1,11 @@
 {
   "name": "@try-svelte/www",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramram1048/try-svelte.git",
+    "directory": "packages/www"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
