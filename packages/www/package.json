@@ -13,7 +13,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "format": "prettier --loglevel silent --write ./src/**/*.{ts,svelte}",
     "lint": "eslint './src/**/*.{ts,svelte}'",
-    "lint:fix": "yarn format && eslint --fix './src/**/*.{ts,svelte}'"
+    "lint:css": "stylelint './src/**/*.svelte'",
+    "lint:fix": "yarn format && eslint --fix './src/**/*.{ts,svelte}' && stylelint --fix './src/**/*.svelte'"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
