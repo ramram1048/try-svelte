@@ -1,25 +1,3 @@
-<script lang="ts">
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
-</script>
-
-<main class="main">
-  <img src={logo} alt="Svelte Logo" class="logo" />
-  <h1 class="header">Hello Typescript!</h1>
-
-  <Counter />
-
-  <p class="paragraph">
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p class="paragraph">
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
-</main>
-
 <style lang="scss" module>
   @import 'themes/colors';
 
@@ -29,24 +7,24 @@
   }
 
   .main {
-    text-align: center;
-    padding: 1em;
     margin: 0 auto;
+    padding: 1em;
+    text-align: center;
   }
 
   .logo {
-    height: 16rem;
     width: 16rem;
+    height: 16rem;
   }
 
   .header {
-    color: $primary-color;
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.1;
-    margin: 2rem auto;
     max-width: 14rem;
+    margin: 2rem auto;
+    color: $primary-color;
+    font-weight: 100;
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: uppercase;
   }
 
   .paragraph {
@@ -65,3 +43,25 @@
     }
   }
 </style>
+
+<script lang="ts">
+  import logo from "./assets/svelte.png";
+  import Counter from "./lib/Counter.svelte";
+</script>
+
+<main class="main">
+  <img src="{logo}" alt="Svelte Logo" class="logo" />
+  <h1 class="header">Hello Typescript!</h1>
+
+  <Counter />
+
+  <p class="paragraph">
+    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
+    apps.
+  </p>
+
+  <p class="paragraph">
+    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
+    the officially supported framework, also powered by Vite!
+  </p>
+</main>
