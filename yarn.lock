@@ -460,13 +460,16 @@ __metadata:
     eslint-plugin-svelte3: ^3.2.0
     prettier: ^2.3.2
     prettier-plugin-svelte: ^2.3.1
+    sass: ^1.35.2
     stylelint: ^13.13.1
     stylelint-config-rational-order: ^0.1.2
     stylelint-config-sass-guidelines: ^8.0.0
     stylelint-order: ^4.1.0
     svelte: ^3.38.3
+    svelte-as-markup-preprocessor: ^0.2.0
     svelte-check: ^2.2.2
     svelte-preprocess: ^4.7.3
+    svelte-preprocess-cssmodules: ^2.0.2
     tslib: ^2.3.0
     typescript: ^4.3.5
     vite: ^2.4.1
@@ -995,6 +998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: ea33d7d25674df4253ae3667da7f48ade6cc8828cb4f2c3a7753f53975f10cebae57e0d1ecf84f1b920b5467262dc0d4f357e5e497b138472d0e64992a8402a4
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
@@ -1234,7 +1244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.4.1":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.4.1":
   version: 3.5.2
   resolution: "chokidar@npm:3.5.2"
   dependencies:
@@ -1674,6 +1684,13 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: 87cf3f89efb8ba028075b3dc1713e2c5609af94cbc129b1f00c3113d01dbe4bf85c9d971e75a98bf8a8508131727682ce929e4bd70e9022af4fd47d75e9507de
+  languageName: node
+  linkType: hard
+
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: a79126b55bc86ee8fd938235a6adf9d457c05fb5bb934e8608b7d35c878d9d1e312a67759244f5c3fba0810b508eb5617e5e6ad6886496ebcfa6832d1c8de3c4
   languageName: node
   linkType: hard
 
@@ -3192,6 +3209,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"loader-utils@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "loader-utils@npm:2.0.0"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^2.1.2
+  checksum: a1c2e48781e1501e126a32c39bc1fb1a7e2f02bd99e5aeb8853ddaf3c121fffefcc4579367f97ca6890b58369e571af1c9ec82e4e20db238d560ab359ff25c33
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^2.0.0":
   version: 2.0.0
   resolution: "locate-path@npm:2.0.0"
@@ -3290,6 +3318,15 @@ fsevents@~2.3.2:
   dependencies:
     yallist: ^4.0.0
   checksum: b8b78353d2391c0f135cdc245c4744ad41c2efb1a6d98f31bc57a2cf48ebf02de96e4876657c3026673576bf1f1f61fc3fdd77ab00ad1ead737537bf17d8019d
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.25.7":
+  version: 0.25.7
+  resolution: "magic-string@npm:0.25.7"
+  dependencies:
+    sourcemap-codec: ^1.4.4
+  checksum: 4b70c13eb21c6f1c54bf7fb029748dc44d6bfcd3c59e5deeda060eecc38df6144b91d10fb7a3cf6156fadab1a68f83d69a189df20ca5f6bd088bf0196ea8f039
   languageName: node
   linkType: hard
 
@@ -4787,6 +4824,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.35.2":
+  version: 1.35.2
+  resolution: "sass@npm:1.35.2"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+  bin:
+    sass: sass.js
+  checksum: d102e3fd6e6aa1a61f9c765fb31ff701d78ef05cf256ebb9ed80994c86638dcc8cc71832df1a1f71edce427cf823449c2fc43618b29ad51a8ca5bf93349ccaf4
+  languageName: node
+  linkType: hard
+
 "semver@npm:2 || 3 || 4 || 5":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
@@ -5003,6 +5051,13 @@ fsevents@~2.3.2:
   version: 0.7.3
   resolution: "source-map@npm:0.7.3"
   checksum: 351ce26ffa1ebf203660c0d70d7566c81e65d2d994d1c2d94da140808e02da34961673ce12ecea9b40797b96fbeb8c70bf71a4ad9f779f1a4fdbba75530bb386
+  languageName: node
+  linkType: hard
+
+"sourcemap-codec@npm:^1.4.4":
+  version: 1.4.8
+  resolution: "sourcemap-codec@npm:1.4.8"
+  checksum: 4d56d1232a45af813606d1755f11e7ae6b3542c615a7e3f904382f0134a9412ba8d090e83749254d78449eafdfcc62d5158b8f35e6241480b51b74b5c46b99f9
   languageName: node
   linkType: hard
 
@@ -5451,6 +5506,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"svelte-as-markup-preprocessor@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "svelte-as-markup-preprocessor@npm:0.2.0"
+  peerDependencies:
+    svelte: ^3.29
+  checksum: 282df9f2c165ebccc67a8694e1840309512eb98f5ec1e6f2412a7dad1ce1e52da646f47910a526a005cb86297edd05873a1a493cbb3f8ef7b1db282021d1f16e
+  languageName: node
+  linkType: hard
+
 "svelte-check@npm:^2.2.2":
   version: 2.2.2
   resolution: "svelte-check@npm:2.2.2"
@@ -5505,6 +5569,19 @@ fsevents@~2.3.2:
   bin:
     svelteserver: bin/server.js
   checksum: 504efe63e2f8efe4857498a1b41f08ae4a0d716017fe1905eddeeadd8abd3711100d25a2285ee64d8a770ad5e424970aaf3af42300c6b0256f141696780435ed
+  languageName: node
+  linkType: hard
+
+"svelte-preprocess-cssmodules@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "svelte-preprocess-cssmodules@npm:2.0.2"
+  dependencies:
+    loader-utils: ^2.0.0
+    magic-string: ^0.25.7
+  peerDependencies:
+    svelte: ^3.20.0
+    typescript: ^4.0.0
+  checksum: 09528ba5e48a6b274063f9bfce372094c4a8a232c5d07fc6f4ae8bd5f3d2d18fa82a0249b3e1ebc1a3c1d2339dc1dbe22ba48a491e649456a95ba7a9d37adcd9
   languageName: node
   linkType: hard
 
