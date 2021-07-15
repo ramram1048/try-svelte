@@ -35,5 +35,8 @@
     "tslib": "^2.3.0",
     "typescript": "^4.3.5",
     "vite": "^2.4.1"
+  },
+  "peerDependencies": {
+    "svelte-language-server": "^0.14.3"
   }
 }

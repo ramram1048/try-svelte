@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.30.0"],
             ["prettier", "npm:2.3.2"],
             ["stylelint", "npm:13.13.1"],
+            ["svelte-language-server", "npm:0.14.3"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
@@ -345,6 +346,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.14.5"],
             ["@babel/helper-validator-identifier", "npm:7.14.5"],
             ["to-fast-properties", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@emmetio/abbreviation", [
+        ["npm:2.2.2", {
+          "packageLocation": "./.yarn/cache/@emmetio-abbreviation-npm-2.2.2-2fa0ef867f-191402728b.zip/node_modules/@emmetio/abbreviation/",
+          "packageDependencies": [
+            ["@emmetio/abbreviation", "npm:2.2.2"],
+            ["@emmetio/scanner", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@emmetio/css-abbreviation", [
+        ["npm:2.1.4", {
+          "packageLocation": "./.yarn/cache/@emmetio-css-abbreviation-npm-2.1.4-05e2d03465-28d36e3b0e.zip/node_modules/@emmetio/css-abbreviation/",
+          "packageDependencies": [
+            ["@emmetio/css-abbreviation", "npm:2.1.4"],
+            ["@emmetio/scanner", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@emmetio/scanner", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/@emmetio-scanner-npm-1.0.0-9b3eb0b7bc-7fa356b160.zip/node_modules/@emmetio/scanner/",
+          "packageDependencies": [
+            ["@emmetio/scanner", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1869,6 +1899,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["dedent-js", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/dedent-js-npm-1.0.1-ddf8ce03f4-d105eb4ea9.zip/node_modules/dedent-js/",
+          "packageDependencies": [
+            ["dedent-js", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["deep-is", [
         ["npm:0.1.3", {
           "packageLocation": "./.yarn/cache/deep-is-npm-0.1.3-0941784645-3de58f86af.zip/node_modules/deep-is/",
@@ -2023,6 +2062,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.3.771-10ca95d7d7-e914f6b68d.zip/node_modules/electron-to-chromium/",
           "packageDependencies": [
             ["electron-to-chromium", "npm:1.3.771"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["emmet", [
+        ["npm:2.3.4", {
+          "packageLocation": "./.yarn/cache/emmet-npm-2.3.4-d81d025e57-299f0c4c6f.zip/node_modules/emmet/",
+          "packageDependencies": [
+            ["emmet", "npm:2.3.4"],
+            ["@emmetio/abbreviation", "npm:2.2.2"],
+            ["@emmetio/css-abbreviation", "npm:2.1.4"]
           ],
           "linkType": "HARD",
         }]
@@ -3645,6 +3695,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jsonc-parser", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/jsonc-parser-npm-2.3.1-9bef9d1f9b-4ee1326ca9.zip/node_modules/jsonc-parser/",
+          "packageDependencies": [
+            ["jsonc-parser", "npm:2.3.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["kind-of", [
         ["npm:3.2.2", {
           "packageLocation": "./.yarn/cache/kind-of-npm-3.2.2-7deaffa5f9-e8a1835c4b.zip/node_modules/kind-of/",
@@ -3825,6 +3884,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loud-rejection", "npm:1.6.0"],
             ["currently-unhandled", "npm:0.4.1"],
             ["signal-exit", "npm:3.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lower-case", [
+        ["npm:2.0.2", {
+          "packageLocation": "./.yarn/cache/lower-case-npm-2.0.2-151055f1c2-aabaca9cef.zip/node_modules/lower-case/",
+          "packageDependencies": [
+            ["lower-case", "npm:2.0.2"],
+            ["tslib", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4289,6 +4358,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["no-case", [
+        ["npm:3.0.4", {
+          "packageLocation": "./.yarn/cache/no-case-npm-3.0.4-12884c3d98-84db4909ca.zip/node_modules/no-case/",
+          "packageDependencies": [
+            ["no-case", "npm:3.0.4"],
+            ["lower-case", "npm:2.0.2"],
+            ["tslib", "npm:2.3.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["node-gyp", [
         ["npm:8.1.0", {
           "packageLocation": "./.yarn/unplugged/node-gyp-npm-8.1.0-30cf500e19/node_modules/node-gyp/",
@@ -4593,6 +4673,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["error-ex", "npm:1.3.2"],
             ["json-parse-even-better-errors", "npm:2.3.1"],
             ["lines-and-columns", "npm:1.1.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["pascal-case", [
+        ["npm:3.1.2", {
+          "packageLocation": "./.yarn/cache/pascal-case-npm-3.1.2-35f5b9bff6-31708cecab.zip/node_modules/pascal-case/",
+          "packageDependencies": [
+            ["pascal-case", "npm:3.1.2"],
+            ["no-case", "npm:3.0.4"],
+            ["tslib", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5034,6 +5125,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.0-29ef37e8b6-652640cc8b.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.3.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:2.3.2", {
           "packageLocation": "./.yarn/cache/prettier-npm-2.3.2-4467ec48dc-4fd89a7f6a.zip/node_modules/prettier/",
           "packageDependencies": [
@@ -5049,6 +5147,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-plugin-svelte", "npm:2.3.1"]
           ],
           "linkType": "SOFT",
+        }],
+        ["virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:2.3.1", {
+          "packageLocation": "./.yarn/$$virtual/prettier-plugin-svelte-virtual-194e46f067/0/cache/prettier-plugin-svelte-npm-2.3.1-48e926c28f-5d266a4889.zip/node_modules/prettier-plugin-svelte/",
+          "packageDependencies": [
+            ["prettier-plugin-svelte", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:2.3.1"],
+            ["@types/prettier", null],
+            ["@types/svelte", null],
+            ["prettier", "npm:2.3.0"],
+            ["svelte", "npm:3.38.3"]
+          ],
+          "packagePeers": [
+            "@types/prettier",
+            "@types/svelte",
+            "prettier",
+            "svelte"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:2.3.1", {
           "packageLocation": "./.yarn/$$virtual/prettier-plugin-svelte-virtual-74283db4f8/0/cache/prettier-plugin-svelte-npm-2.3.1-48e926c28f-5d266a4889.zip/node_modules/prettier-plugin-svelte/",
@@ -6359,6 +6474,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["svelte-language-server", [
+        ["npm:0.14.3", {
+          "packageLocation": "./.yarn/cache/svelte-language-server-npm-0.14.3-437658ef43-504efe63e2.zip/node_modules/svelte-language-server/",
+          "packageDependencies": [
+            ["svelte-language-server", "npm:0.14.3"],
+            ["chokidar", "npm:3.5.2"],
+            ["estree-walker", "npm:2.0.2"],
+            ["glob", "npm:7.1.7"],
+            ["lodash", "npm:4.17.21"],
+            ["prettier", "npm:2.3.0"],
+            ["prettier-plugin-svelte", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:2.3.1"],
+            ["source-map", "npm:0.7.3"],
+            ["svelte", "npm:3.38.3"],
+            ["svelte-preprocess", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:4.7.4"],
+            ["svelte2tsx", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:0.4.1"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
+            ["vscode-css-languageservice", "npm:5.0.0"],
+            ["vscode-emmet-helper", "npm:2.1.2"],
+            ["vscode-html-languageservice", "npm:4.0.0"],
+            ["vscode-languageserver", "npm:7.1.0-next.4"],
+            ["vscode-languageserver-types", "npm:3.16.0"],
+            ["vscode-uri", "npm:2.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["svelte-preprocess", [
         ["npm:4.7.3", {
           "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-3da80c0a3d/node_modules/svelte-preprocess/",
@@ -6366,6 +6507,68 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["svelte-preprocess", "npm:4.7.3"]
           ],
           "linkType": "SOFT",
+        }],
+        ["npm:4.7.4", {
+          "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-45b37dcb27/node_modules/svelte-preprocess/",
+          "packageDependencies": [
+            ["svelte-preprocess", "npm:4.7.4"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:4.7.4", {
+          "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-45b37dcb27/node_modules/svelte-preprocess/",
+          "packageDependencies": [
+            ["svelte-preprocess", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:4.7.4"],
+            ["@babel/core", null],
+            ["@types/babel__core", null],
+            ["@types/coffeescript", null],
+            ["@types/less", null],
+            ["@types/postcss", null],
+            ["@types/postcss-load-config", null],
+            ["@types/pug", "npm:2.0.5"],
+            ["@types/sass", "npm:1.16.1"],
+            ["@types/stylus", null],
+            ["@types/sugarss", null],
+            ["@types/svelte", null],
+            ["@types/typescript", null],
+            ["coffeescript", null],
+            ["detect-indent", "npm:6.1.0"],
+            ["less", null],
+            ["node-sass", null],
+            ["postcss", null],
+            ["postcss-load-config", null],
+            ["pug", null],
+            ["sass", null],
+            ["strip-indent", "npm:3.0.0"],
+            ["stylus", null],
+            ["sugarss", null],
+            ["svelte", "npm:3.38.3"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
+          ],
+          "packagePeers": [
+            "@babel/core",
+            "@types/babel__core",
+            "@types/coffeescript",
+            "@types/less",
+            "@types/postcss-load-config",
+            "@types/postcss",
+            "@types/stylus",
+            "@types/sugarss",
+            "@types/svelte",
+            "@types/typescript",
+            "coffeescript",
+            "less",
+            "node-sass",
+            "postcss-load-config",
+            "postcss",
+            "pug",
+            "sass",
+            "stylus",
+            "sugarss",
+            "svelte",
+            "typescript"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:dcdfab49b81bd5c600b03429b326e0c4e3a1a3a1f36e9d1d488aa4b31a297a2e518dc61bf5bfe01c866fc23aa1cf7b942c86f2b6ecf2b995a3f248befad92c4d#npm:4.7.3", {
           "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-3da80c0a3d/node_modules/svelte-preprocess/",
@@ -6417,6 +6620,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "sass",
             "stylus",
             "sugarss",
+            "svelte",
+            "typescript"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["svelte2tsx", [
+        ["npm:0.4.1", {
+          "packageLocation": "./.yarn/cache/svelte2tsx-npm-0.4.1-d75de88896-fb9f28b2bb.zip/node_modules/svelte2tsx/",
+          "packageDependencies": [
+            ["svelte2tsx", "npm:0.4.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:0.4.1", {
+          "packageLocation": "./.yarn/$$virtual/svelte2tsx-virtual-8466c23d75/0/cache/svelte2tsx-npm-0.4.1-d75de88896-fb9f28b2bb.zip/node_modules/svelte2tsx/",
+          "packageDependencies": [
+            ["svelte2tsx", "virtual:437658ef433d698e687ee53b3440e841e7906c7d390e337e3c57b3420e78a0fbce70eace206c844000db70a8a8ec2a3d738129960762b37badac7874fe5223c5#npm:0.4.1"],
+            ["@types/svelte", null],
+            ["@types/typescript", null],
+            ["dedent-js", "npm:1.0.1"],
+            ["pascal-case", "npm:3.1.2"],
+            ["svelte", "npm:3.38.3"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
+          ],
+          "packagePeers": [
+            "@types/svelte",
+            "@types/typescript",
             "svelte",
             "typescript"
           ],
@@ -6584,6 +6815,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.30.0"],
             ["prettier", "npm:2.3.2"],
             ["stylelint", "npm:13.13.1"],
+            ["svelte-language-server", "npm:0.14.3"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
@@ -6995,6 +7227,120 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.3.5"],
             ["resolve", "patch:resolve@npm%3A1.20.0#builtin<compat/resolve>::version=1.20.0&hash=3388aa"],
             ["rollup", "npm:2.53.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-css-languageservice", [
+        ["npm:5.0.0", {
+          "packageLocation": "./.yarn/cache/vscode-css-languageservice-npm-5.0.0-05702cc689-6130346b87.zip/node_modules/vscode-css-languageservice/",
+          "packageDependencies": [
+            ["vscode-css-languageservice", "npm:5.0.0"],
+            ["vscode-languageserver-textdocument", "npm:1.0.1"],
+            ["vscode-languageserver-types", "npm:3.16.0"],
+            ["vscode-nls", "npm:5.0.0"],
+            ["vscode-uri", "npm:2.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-emmet-helper", [
+        ["npm:2.1.2", {
+          "packageLocation": "./.yarn/cache/vscode-emmet-helper-npm-2.1.2-a3394ec632-aee6f6d6a2.zip/node_modules/vscode-emmet-helper/",
+          "packageDependencies": [
+            ["vscode-emmet-helper", "npm:2.1.2"],
+            ["emmet", "npm:2.3.4"],
+            ["jsonc-parser", "npm:2.3.1"],
+            ["vscode-languageserver-textdocument", "npm:1.0.1"],
+            ["vscode-languageserver-types", "npm:3.16.0"],
+            ["vscode-nls", "npm:5.0.0"],
+            ["vscode-uri", "npm:2.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-html-languageservice", [
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/vscode-html-languageservice-npm-4.0.0-7ad8a90b71-048df63234.zip/node_modules/vscode-html-languageservice/",
+          "packageDependencies": [
+            ["vscode-html-languageservice", "npm:4.0.0"],
+            ["vscode-languageserver-textdocument", "npm:1.0.1"],
+            ["vscode-languageserver-types", "npm:3.16.0"],
+            ["vscode-nls", "npm:5.0.0"],
+            ["vscode-uri", "npm:2.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-jsonrpc", [
+        ["npm:6.1.0-next.2", {
+          "packageLocation": "./.yarn/cache/vscode-jsonrpc-npm-6.1.0-next.2-1a7544bbbc-a74df27a1b.zip/node_modules/vscode-jsonrpc/",
+          "packageDependencies": [
+            ["vscode-jsonrpc", "npm:6.1.0-next.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-languageserver", [
+        ["npm:7.1.0-next.4", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-npm-7.1.0-next.4-09aa8bf791-f6fe1c48e8.zip/node_modules/vscode-languageserver/",
+          "packageDependencies": [
+            ["vscode-languageserver", "npm:7.1.0-next.4"],
+            ["vscode-languageserver-protocol", "npm:3.17.0-next.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-languageserver-protocol", [
+        ["npm:3.17.0-next.5", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-protocol-npm-3.17.0-next.5-ac88ae4dbb-9d05e5deda.zip/node_modules/vscode-languageserver-protocol/",
+          "packageDependencies": [
+            ["vscode-languageserver-protocol", "npm:3.17.0-next.5"],
+            ["vscode-jsonrpc", "npm:6.1.0-next.2"],
+            ["vscode-languageserver-types", "npm:3.17.0-next.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-languageserver-textdocument", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-textdocument-npm-1.0.1-7e6d1e84e1-e69f0be226.zip/node_modules/vscode-languageserver-textdocument/",
+          "packageDependencies": [
+            ["vscode-languageserver-textdocument", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-languageserver-types", [
+        ["npm:3.16.0", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-types-npm-3.16.0-bd03fd2d40-49a66a6e0a.zip/node_modules/vscode-languageserver-types/",
+          "packageDependencies": [
+            ["vscode-languageserver-types", "npm:3.16.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.17.0-next.1", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-types-npm-3.17.0-next.1-009cf8ba5a-e25b883382.zip/node_modules/vscode-languageserver-types/",
+          "packageDependencies": [
+            ["vscode-languageserver-types", "npm:3.17.0-next.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-nls", [
+        ["npm:5.0.0", {
+          "packageLocation": "./.yarn/cache/vscode-nls-npm-5.0.0-934475e215-6ad8ed1da5.zip/node_modules/vscode-nls/",
+          "packageDependencies": [
+            ["vscode-nls", "npm:5.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vscode-uri", [
+        ["npm:2.1.2", {
+          "packageLocation": "./.yarn/cache/vscode-uri-npm-2.1.2-818cfab1f1-e911d2a2bb.zip/node_modules/vscode-uri/",
+          "packageDependencies": [
+            ["vscode-uri", "npm:2.1.2"]
           ],
           "linkType": "HARD",
         }]
