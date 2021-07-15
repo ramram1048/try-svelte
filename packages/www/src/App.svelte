@@ -3,42 +3,44 @@
   import Counter from './lib/Counter.svelte'
 </script>
 
-<main>
-  <img src={logo} alt="Svelte Logo" />
-  <h1>Hello Typescript!</h1>
+<main class="main">
+  <img src={logo} alt="Svelte Logo" class="logo" />
+  <h1 class="header">Hello Typescript!</h1>
 
   <Counter />
 
-  <p>
+  <p class="paragraph">
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
     apps.
   </p>
 
-  <p>
+  <p class="paragraph">
     Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
     the officially supported framework, also powered by Vite!
   </p>
 </main>
 
-<style>
+<style lang="scss" module>
+  @import 'themes/colors';
+
   :root {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  main {
+  .main {
     text-align: center;
     padding: 1em;
     margin: 0 auto;
   }
 
-  img {
+  .logo {
     height: 16rem;
     width: 16rem;
   }
 
-  h1 {
-    color: #ff3e00;
+  .header {
+    color: $primary-color;
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 100;
@@ -47,18 +49,18 @@
     max-width: 14rem;
   }
 
-  p {
+  .paragraph {
     max-width: 14rem;
     margin: 1rem auto;
     line-height: 1.35;
   }
 
   @media (min-width: 480px) {
-    h1 {
+    .header {
       max-width: none;
     }
 
-    p {
+    .paragraph {
       max-width: none;
     }
   }

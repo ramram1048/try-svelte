@@ -5,16 +5,18 @@
   }
 </script>
 
-<button on:click={increment}>
+<button on:click={increment} class="button">
   Clicks: {count}
 </button>
 
-<style>
-  button {
+<style lang="scss" module>
+  @import '../themes/colors';
+
+  .button {
     font-family: inherit;
     font-size: inherit;
     padding: 1em 2em;
-    color: #ff3e00;
+    color: $primary-color;
     background-color: rgba(255, 62, 0, 0.1);
     border-radius: 2em;
     border: 2px solid rgba(255, 62, 0, 0);
@@ -24,11 +26,11 @@
     cursor: pointer;
   }
 
-  button:focus {
-    border: 2px solid #ff3e00;
+  .button:focus {
+    border: 2px solid $primary-color;
   }
 
-  button:active {
+  .button:active {
     background-color: rgba(255, 62, 0, 0.2);
   }
 </style>
